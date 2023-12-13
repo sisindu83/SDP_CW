@@ -51,7 +51,7 @@ name="filepond" accept="image/png, image/jpeg, image/gif"/>
 </div>
 <div class="col-md-5">
 <div class="form-group">
-<label for="initial">Initial</label>
+<label for="initial">Initial.</label>
 <input type="text" class="form-control mb-3" id="initial" placeholder="Initial" >
 </div>
 </div>
