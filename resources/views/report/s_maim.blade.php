@@ -1,6 +1,7 @@
 @include('layouts.sheader')
 @include('layouts.ssidebar')
-<   <!--  BEGIN CONTENT AREA  -->
+@include('layouts.Bef_lopg')
+  <!--  BEGIN CONTENT AREA  -->
 <div id="content" class="main-content">
 <div class="layout-px-spacing">
 
@@ -62,7 +63,7 @@
 <div class="col-md-7">
 <div class="form-group">
 <label for="contactno">Contact No:</label>
-<input type="text" class="form-control mb-3" id="contactno" placeholder="Contact No" >
+<input type="tel" class="form-control mb-3" id="contactno" placeholder="Contact No" >
 </div>
 </div>
 <div class="col-md-5">

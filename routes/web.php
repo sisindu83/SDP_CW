@@ -15,17 +15,30 @@
    return view('welcome');
    
 });*/
-
 Route::get('/', function () {
-    return view('students/s_maim');
+    return view('report/s_maim');
    
 });
-Route::get('/course', function () {
-    return view('students/course');
+Route::get('/report', function () {
+    return view('report/s_maim');
+   
+});
+Route::get('/admin', function () {
+    return view('Backend/r_view');
    
 });
 
-Route::get('/student_breakages', function () {
-    return view('ACADEMIC/student_brakes/student_breakages');
+Route::get('/registration', function () {
+    return view('report/r_reg_form');
+   
+});
+
+Route::get('/login', function () {
+    return view('report/login');
+   
+});
+
+Route::get('/pwrest', function () {
+    return view('report/passwordreset');
    
 });
