@@ -13,21 +13,18 @@
 <div class="col-xl-12 col-lg-12 col-md-12 layout-spacing">
 <form class="section general-info">
 <div class="info">
-<h6 class="">General Information</h6>
+<h6 class="">Submit New Wildlife Crime</h6>
 <div class="row">
 <div class="col-lg-11 mx-auto">
 <div class="row">
 <div class="col-xl-2 col-lg-12 col-md-4">
-<div class="profile-image  mt-4 pe-md-4">
+
 
 <!-- // The classic file input element we'll enhance
 // to a file pond, we moved the configuration
 // properties to JavaScript -->
 
-<div class="img-uploader-content">
-<input type="file" class="filepond"
-name="filepond" accept="image/png, image/jpeg, image/gif"/>
-</div>
+
 
 
 
@@ -58,20 +55,20 @@ name="filepond" accept="image/png, image/jpeg, image/gif"/>
 
 <div class="col-md-5">
 <div class="form-group">
-<label for="profession">Last Name</label>
-<input type="text" class="form-control mb-3" id="profession" placeholder="Last Name" >
+<label for="lastname">Last Name</label>
+<input type="text" class="form-control mb-3" id="lastname" placeholder="Last Name" >
 </div>
 </div>
 <div class="col-md-7">
 <div class="form-group">
-<label for="namedonatedbyinitial">Name Donated by Initial</label>
-<input type="text" class="form-control mb-3" id="namedonatedbyinitial" placeholder="Name Donated by Initial" >
+<label for="contactno">Contact No:</label>
+<input type="text" class="form-control mb-3" id="contactno" placeholder="Contact No" >
 </div>
 </div>
 <div class="col-md-5">
 <div class="form-group">
-<label for="country">Designation</label>
-<select class="form-select mb-3" id="Designation">
+<label for="countrdistric">Distric</label>
+<select class="form-select mb-3" id="distric">
 <option>Snr. Professor</option>
 <option>Professor</option>
 <option>Associate Professor</option>
@@ -87,29 +84,52 @@ name="filepond" accept="image/png, image/jpeg, image/gif"/>
 
 <div class="col-md-6">
 <div class="form-group">
-<label for="phone">Phone</label>
-<input type="text" class="form-control mb-3" id="phone" placeholder="Write your phone number here" >
+<label for="city">City</label>
+<input type="text" class="form-control mb-3" id="phone" placeholder="City" >
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group">
-<label for="email">Email</label>
-<input type="text" class="form-control mb-3" id="email" placeholder="Write your email here">
+<label for="gn">GN division</label>
+<input type="text" class="form-control mb-3" id="gn" placeholder="GN Division">
+</div>
+</div> 
+
+<div class="col-md-6">
+<div class="form-group">
+<label for="location">Location</label>
+<input type="text" class="form-control mb-3" id="location" placeholder="Location" >
+</div>
+</div>
+<div class="col-md-6">
+<div class="form-group">
+<label for="incident">Tell Us About Incident(s)</label>
+<input type="text" class="form-control mb-3" id="incident" placeholder="Tell Us About Incident(s)">
 </div>
 </div> 
 
 
 
-<div class="col-md-10 mt-1">
-<div class="form-group text-end">
-<button class="btn btn-secondary">Password Reset</button>
+<div class="col-md-3 ">
+<label for="incident">Attachement-Max 3Mb </label>
+<div class="multiple-file-upload">
+    
+    <input type="file" 
+        class="filepond file-upload-multiple"
+        name="filepond" 
+        multiple 
+        data-allow-reorder="true"
+        data-max-file-size="3MB"
+        data-max-files="3">
 </div>
 </div>
 
+<div class="row">
 
-<div class="col mt-1">
+<div class="col mt-6">
 <div class="form-group text-end">
-<button class="btn btn-secondary">Save</button>
+<button class="btn btn-secondary">Report</button>
+</div>
 </div>
 </div>
 
