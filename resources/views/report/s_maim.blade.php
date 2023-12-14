@@ -60,21 +60,20 @@
 <input type="text" class="form-control mb-3" id="lastname" placeholder="Last Name" >
 </div>
 </div>
-<div class="col-md-7">
+<div class="col-md-3">
 <div class="form-group">
 <label for="contactno">Contact No:</label>
 <input type="tel" class="form-control mb-3" id="contactno" placeholder="Contact No" >
 </div>
 </div>
-<div class="col-md-5">
+<div class="col-md-4">
 <div class="form-group">
 <label for="countrdistric">Distric</label>
 <select class="form-select mb-3" id="distric">
-<option>Snr. Professor</option>
-<option>Professor</option>
-<option>Associate Professor</option>
-<option>Snr. Lecturer Grade I</option>
-<option>Snr. Lecturer Grade II</option>
+<option>Colombo</option>
+<option>Gampahala</option>
+<option>Kaluthara</option>
+
 
 </select>
 </div>
@@ -83,13 +82,19 @@
 
 
 
-<div class="col-md-6">
+<div class="col-md-5">
 <div class="form-group">
 <label for="city">City</label>
 <input type="text" class="form-control mb-3" id="phone" placeholder="City" >
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-3">
+<div class="form-group">
+<label for="contactno">Email:</label>
+<input type="email" id="email" name="email" class="form-control mb-3"  placeholder="E mail" >
+</div>
+</div>
+<div class="col-md-3">
 <div class="form-group">
 <label for="gn">GN division</label>
 <input type="text" class="form-control mb-3" id="gn" placeholder="GN Division">
@@ -102,7 +107,18 @@
 <input type="text" class="form-control mb-3" id="location" placeholder="Location" >
 </div>
 </div>
-<div class="col-md-6">
+<div class="col-md-4">
+<div class="form-group">
+<label for="rtype">Report Type</label>
+<select class="form-select mb-3" id="rtype">
+<option>Wildlife</option>
+<option>Animal</option>
+
+
+</select>
+</div>
+</div>
+<div class="col-md-8">
 <div class="form-group">
 <label for="incident">Tell Us About Incident(s)</label>
 <input type="text" class="form-control mb-3" id="incident" placeholder="Tell Us About Incident(s)">

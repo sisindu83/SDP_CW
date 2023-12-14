@@ -70,15 +70,15 @@
 <div class="form-group">
 <label for="countrdistric">Distric</label>
 <select class="form-select mb-3" id="distric">
-<option>Snr. Professor</option>
-<option>Professor</option>
-<option>Associate Professor</option>
-<option>Snr. Lecturer Grade I</option>
-<option>Snr. Lecturer Grade II</option>
+<option>Colombo</option>
+<option>Gampahala</option>
+<option>Kaluthara</option>
 
 </select>
 </div>
 </div>
+
+
 
 
 
