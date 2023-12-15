@@ -145,7 +145,7 @@
 
 <div class="col mt-6">
 <div class="form-group text-end">
-<button class="btn btn-secondary">Report</button>
+<button class="btn btn-primary default mb-2 me-4">Report</button>
 </div>
 </div>
 </div>

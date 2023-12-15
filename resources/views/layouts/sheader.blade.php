@@ -33,9 +33,23 @@
     <link href="<?php echo url("/")?>/assets/src/assets/css/dark/components/list-group.css" rel="stylesheet" type="text/css">
 
     <link href="<?php echo url("/")?>/assets/src/assets/css/dark/users/account-setting.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="../src/plugins/src/sweetalerts2/sweetalerts2.css">
+    
+    <link href="<?php echo url("/")?>/src/assets/css/light/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo url("/")?>/src/plugins/css/light/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
 
+    <link href="<?php echo url("/")?>/src/assets/css/dark/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo url("/")?>/src/plugins/css/dark/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
 
     <!--  END CUSTOM STYLE FILE  -->
+
+    <div class="dropdown-menu position-absolute" aria-labelledby="language-dropdown">
+                        <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/us.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;USA</span></a>
+                        <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/tr.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;Turkey</span></a>
+                        <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/br.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;Brazil</span></a>
+                        <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/in.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;India</span></a>
+                        <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/de.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;Germany</span></a>
+                    </div>
 
     <!--  BEGIN NAVBAR  -->
     <div class="header-container">

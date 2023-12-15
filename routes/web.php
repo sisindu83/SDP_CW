@@ -23,7 +23,7 @@ Route::get('/report', function () {
     return view('report/s_maim');
    
 });
-Route::get('/admin', function () {
+Route::get('/s_view', function () {
     return view('Backend/r_view');
    
 });
@@ -38,7 +38,20 @@ Route::get('/login', function () {
    
 });
 
-Route::get('/pwrest', function () {
+Route::get('/ccmplin', function () {
     return view('report/passwordreset');
+   
+});
+
+Route::get('/pwrest', function () {
+    return view('report/report_check');
+   
+});
+Route::get('/inspec', function () {
+    return view('Backend/inspec');
+   
+});
+Route::get('/admin', function () {
+    return view('Backend/login');
    
 });

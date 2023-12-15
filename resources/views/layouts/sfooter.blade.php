@@ -44,6 +44,21 @@
     <script src="<?php echo url("/")?>/assets/src/assets/js/users/account-settings.js"></script>
 
     <script src="<?php echo url("/")?>/assets/src/assets/js/scrollspyNav.js"></script>
+
+    <script src="<?php echo url("/")?>/src/assets/js/scrollspyNav.js"></script>
+    <script src="<?php echo url("/")?>/src/plugins/src/sweetalerts2/sweetalerts2.min.js"></script>
+    <script src="<?php echo url("/")?>/src/plugins/src/sweetalerts2/custom-sweetalert.js"></script>
     <!--  END CUSTOM SCRIPTS FILE  -->
+
+    document.querySelector('.widget-content .default').addEventListener('click', function() {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Placement set at default (center)',
+        showConfirmButton: false,
+        timer: 1500
+    })
+})
+
 </body>
 </html>
