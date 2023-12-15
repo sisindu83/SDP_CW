@@ -11,7 +11,7 @@
                             </a>
                         </div>
                         <div class="nav-item theme-text">
-                            <a href="#" class="nav-link"> CORK </a>
+                            <a href="#" class="nav-link"> ECCS </a>
                         </div>
                     </div>
                     <div class="nav-item sidebar-toggle">
@@ -24,81 +24,36 @@
                 <ul class="list-unstyled menu-categories" id="accordionExample">
                     
                     <li class="menu">
-                        <a href="empty-page.html" aria-expanded="false" class="dropdown-toggle">
+                        <a href="u_reg" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-columns"><path d="M12 3h7a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-7m0-18H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7m0-18v18"></path></svg>
-                                <span>Empty Page</span>
+                            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#ffffff" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g id="Layer_2" data-name="Layer 2"> <g id="invisible_box" data-name="invisible box"> <rect width="48" height="48" fill="none"></rect> </g> <g id="Layer_7" data-name="Layer 7"> <g> <path d="M39,18H35V13A11,11,0,0,0,24,2H22A11,11,0,0,0,11,13v5H7a2,2,0,0,0-2,2V44a2,2,0,0,0,2,2H39a2,2,0,0,0,2-2V20A2,2,0,0,0,39,18ZM15,13a7,7,0,0,1,7-7h2a7,7,0,0,1,7,7v5H15ZM37,42H9V22H37Z"></path> <circle cx="15" cy="32" r="3"></circle> <circle cx="23" cy="32" r="3"></circle> <circle cx="31" cy="32" r="3"></circle> </g> </g> </g> </g></svg>
+                                <span>SignIn</span>
                             </div>
                         </a>
                     </li>
                     
-                    <li class="menu active">
-                        <a href="full-width.html" aria-expanded="true" class="dropdown-toggle">
+                    <li class="menu ">
+                        <a href="admin" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
-                                <span>Full Width</span>
+                          <svg fill="#ffffff" height="200px" width="200px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M79.886,427.574c-13.516,0-24.511,10.996-24.511,24.511c0,13.515,10.996,24.511,24.511,24.511 c13.516,0,24.511-10.996,24.511-24.511C104.397,438.57,93.402,427.574,79.886,427.574z M79.886,460.255 c-4.506,0-8.17-3.665-8.17-8.17c0-4.506,3.666-8.17,8.17-8.17c4.506,0,8.17,3.665,8.17,8.17 C88.056,456.591,84.392,460.255,79.886,460.255z"></path> </g> </g> <g> <g> <path d="M167.944,427.574c-13.516,0-24.511,10.996-24.511,24.511c0,13.515,10.995,24.511,24.511,24.511 c13.516,0,24.511-10.996,24.511-24.511C192.454,438.57,181.459,427.574,167.944,427.574z M167.944,460.255 c-4.506,0-8.17-3.665-8.17-8.17c0-4.506,3.665-8.17,8.17-8.17c4.506,0,8.17,3.665,8.17,8.17 C176.114,456.591,172.449,460.255,167.944,460.255z"></path> </g> </g> <g> <g> <path d="M256,427.574c-13.516,0-24.511,10.996-24.511,24.511c0,13.515,10.995,24.511,24.511,24.511 c13.516,0,24.511-10.996,24.511-24.511C280.511,438.57,269.516,427.574,256,427.574z M256,460.255c-4.506,0-8.17-3.665-8.17-8.17 c0-4.506,3.665-8.17,8.17-8.17c4.506,0,8.17,3.665,8.17,8.17C264.17,456.591,260.506,460.255,256,460.255z"></path> </g> </g> <g> <g> <path d="M344.056,427.574c-13.516,0-24.511,10.996-24.511,24.511c0,13.515,10.996,24.511,24.511,24.511 c13.516,0,24.511-10.996,24.511-24.511C368.567,438.57,357.572,427.574,344.056,427.574z M344.056,460.255 c-4.506,0-8.17-3.665-8.17-8.17c0-4.506,3.666-8.17,8.17-8.17c4.506,0,8.17,3.665,8.17,8.17 C352.227,456.591,348.562,460.255,344.056,460.255z"></path> </g> </g> <g> <g> <path d="M432.114,427.574c-13.516,0-24.511,10.996-24.511,24.511c0,13.515,10.995,24.511,24.511,24.511 c13.516,0,24.511-10.996,24.511-24.511C456.624,438.57,445.63,427.574,432.114,427.574z M432.114,460.255 c-4.506,0-8.17-3.665-8.17-8.17c0-4.506,3.665-8.17,8.17-8.17c4.506,0,8.17,3.665,8.17,8.17 C440.284,456.591,436.619,460.255,432.114,460.255z"></path> </g> </g> <g> <g> <path d="M503.83,392.17H8.17c-4.512,0-8.17,3.657-8.17,8.17V503.83c0,4.513,3.658,8.17,8.17,8.17h495.66 c4.512,0,8.17-3.657,8.17-8.17V400.34C512,395.827,508.342,392.17,503.83,392.17z M495.66,495.66H16.34v-87.149H495.66V495.66z"></path> </g> </g> <g> <g> <path d="M256,0c-51.057,0-92.596,41.538-92.596,92.596s41.538,92.596,92.596,92.596s92.596-41.538,92.596-92.596S307.057,0,256,0z M256,168.851c-42.047,0-76.255-34.208-76.255-76.255S213.953,16.34,256,16.34s76.255,34.208,76.255,76.255 S298.047,168.851,256,168.851z"></path> </g> </g> <g> <g> <path d="M275.219,98.411c-4.224-1.588-8.935,0.546-10.524,4.769c-1.261,3.35-4.755,5.602-8.694,5.602 c-3.939,0-7.433-2.251-8.694-5.602c-1.589-4.222-6.3-6.358-10.524-4.769c-4.222,1.589-6.357,6.302-4.768,10.524 c3.644,9.682,13.283,16.186,23.987,16.186c10.704,0,20.343-6.505,23.987-16.186C281.576,104.713,279.442,100,275.219,98.411z"></path> </g> </g> <g> <g> <path d="M256,201.532c-85.597,0-155.234,69.637-155.234,155.234c0,4.513,3.658,8.17,8.17,8.17h54.468 c4.512,0,8.17-3.657,8.17-8.17c0-4.513-3.658-8.17-8.17-8.17h-46.06c4.245-72.797,64.814-130.723,138.656-130.723 s134.411,57.927,138.656,130.723H196.085c-4.512,0-8.17,3.657-8.17,8.17c0,4.513,3.658,8.17,8.17,8.17h206.979 c4.512,0,8.17-3.657,8.17-8.17C411.234,271.169,341.597,201.532,256,201.532z"></path> </g> </g> </g></svg>
+                                <span>Signup</span>
                             </div>
                         </a>
                     </li>
                     
                     <li class="menu">
-                        <a href="collapsible-menu.html" aria-expanded="false" class="dropdown-toggle">
+                        <a href="pwrestpswreset" aria-expanded="false" class="dropdown-toggle">
                             <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
-                                <span>Collapsed Menu</span>
+                            <svg fill="#ffffff" height="165px" width="165px" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.00 512.00" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512" stroke="#ffffff" stroke-width="16.896"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M422.2,11H89.8C46.4,11,11,46.4,11,89.8v91.8c0,27.1,14.1,52.1,36.4,66.4c-2.7,9.5-4.2,19.4-4.2,29.6 c0,1.7-29.4-7.5-32.2,20.4v182.6c0,11.3,9.1,20.4,20.4,20.4h248.6c11.3,0,20.4-9.1,20.4-20.4V298c-2.6-27.4-32.2-19-32.2-20.4 c0-5.8-0.5-11.6-1.4-17.2h155.4c43.4,0,78.8-35.4,78.8-78.8V89.8C501,46.4,465.6,11,422.2,11z M259.6,460.2H51.8V318.4h207.8 V460.2z M84.1,277.6c1.1-38.7,32.8-69.8,71.7-69.8c38.9,0,70.6,31.1,71.7,69.8H84.1z M460.2,181.6c0,20.9-17,38-38,38H251 C231,188.3,195.5,167,155.7,167c-36.2,0-68.9,17.5-89.6,44.3c-8.8-7.1-14.3-18-14.3-29.7V89.8c0-20.9,17-38,38-38h332.4 c20.9,0,38,17,38,38V181.6z"></path> <path d="m116.9,115.3h-7c-11.3,0-20.4,9.1-20.4,20.4s9.1,20.4 20.4,20.4h7c11.3,0 20.4-9.1 20.4-20.4s-9.1-20.4-20.4-20.4z"></path> <path d="m212,115.3h-7c-11.3,0-20.4,9.1-20.4,20.4s9.1,20.4 20.4,20.4h7c11.3,0 20.4-9.1 20.4-20.4s-9.1-20.4-20.4-20.4z"></path> <path d="m307,115.3h-7c-11.3,0-20.4,9.1-20.4,20.4s9.1,20.4 20.4,20.4h7c11.3,0 20.4-9.1 20.4-20.4s-9.1-20.4-20.4-20.4z"></path> <path d="m402.1,115.3h-7c-11.3,0-20.4,9.1-20.4,20.4s9.1,20.4 20.4,20.4h7c11.3,0 20.4-9.1 20.4-20.4s-9.1-20.4-20.4-20.4z"></path> </g> </g> </g></svg>
+                                <span>Forget Password</span>
                             </div>
                         </a>
                     </li>
 
-                    <li class="menu">
-                        <a href="blank-page.html" aria-expanded="false" class="dropdown-toggle">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                                <span>Blank Page</span>
-                            </div>
-                        </a>
-                    </li>
+              
 
-                    <li class="menu menu-heading">
-                        <div class="heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minus"><line x1="5" y1="12" x2="19" y2="12"></line></svg><span>MENU LEVELS</span></div>
-                    </li>
-
-                    <li class="menu">
-                        <a href="#home" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-hash"><line x1="4" y1="9" x2="20" y2="9"></line><line x1="4" y1="15" x2="20" y2="15"></line><line x1="10" y1="3" x2="8" y2="21"></line><line x1="16" y1="3" x2="14" y2="21"></line></svg>
-                                <span>Level 1</span>
-                            </div>
-                            <div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg>
-                            </div>
-                        </a>
-                        <ul class="collapse submenu list-unstyled" id="home" data-bs-parent="#accordionExample">
-                            <li>
-                                <a href="javascript:void(0);"> Level 2a </a>
-                            </li>
-                            <li>
-                                <a href="javascript:void(0);"> Level 2b </a>
-                            </li>
-
-                            <li>
-                                <a href="#level-three" data-bs-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"> Level 2c <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"></polyline></svg> </a>
-                                <ul class="collapse list-unstyled sub-submenu" id="level-three" data-bs-parent="#pages"> 
-                                    <li>
-                                        <a href="javascript:void(0);"> Level 3a </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);"> Level 3b </a>
-                                    </li>
-                                    <li>
-                                        <a href="javascript:void(0);"> Level 3c </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </li>
-
-                </ul>
+                    
+                    
                 
             </nav>
 

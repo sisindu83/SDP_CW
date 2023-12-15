@@ -55,3 +55,11 @@ Route::get('/admin', function () {
     return view('Backend/login');
    
 });
+Route::get('/pswreset', function () {
+    return view('Backend/passwordreset');
+   
+});
+Route::get('/u_reg', function () {
+    return view('Backend/r_reg_form');
+   
+});

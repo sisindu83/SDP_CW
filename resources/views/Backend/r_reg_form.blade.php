@@ -78,23 +78,14 @@
 </div>
 </div>
 
-
-
-
-
-
 <div class="col-md-5">
 <div class="form-group">
-<label for="city">City</label>
-<input type="text" class="form-control mb-3" id="phone" placeholder="City" >
+<label for="position">Designation</label>
+<input type="text" class="form-control mb-3" id="jposition" placeholder="Designation" >
 </div>
 </div>
-<div class="col-md-4">
-<div class="form-group">
-<label for="gn">GN division</label>
-<input type="text" class="form-control mb-3" id="gn" placeholder="GN Division">
-</div>
-</div> 
+
+
 <div class="col-md-4">
 <div class="form-group">
 <label for="email">email</label>
