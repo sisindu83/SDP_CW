@@ -1,6 +1,6 @@
 @include('layouts.sheader')
 @include('layouts.ssidebar')
-@include('layouts.Bef_lopg')
+@include('layouts.slide')
   <!--  BEGIN CONTENT AREA  -->
 <div id="content" class="main-content">
 <div class="layout-px-spacing">

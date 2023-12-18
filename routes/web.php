@@ -1,4 +1,6 @@
 <?php
+use Illuminate\Support\Facades\Route;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,53 +15,59 @@
 
 /*Route::get('/s_maim', function () {
    return view('welcome');
-   
+
 });*/
 Route::get('/', function () {
     return view('report/s_maim');
-   
+
 });
 Route::get('/report', function () {
     return view('report/s_maim');
-   
+
 });
 Route::get('/s_view', function () {
     return view('Backend/r_view');
-   
+
 });
 
 Route::get('/registration', function () {
     return view('report/r_reg_form');
-   
+
 });
 
 Route::get('/login', function () {
     return view('report/login');
-   
+
 });
 
 Route::get('/ccmplin', function () {
     return view('report/passwordreset');
-   
+
 });
 
 Route::get('/pwrest', function () {
     return view('report/report_check');
-   
+
 });
 Route::get('/inspec', function () {
     return view('Backend/inspec');
-   
+
 });
 Route::get('/admin', function () {
-    return view('Backend/login');
-   
+    return view('Backend/adlogin');
+
 });
-Route::get('/pswreset', function () {
-    return view('Backend/passwordreset');
-   
+Route::get('/pwrestpswreset', function () {
+    return view('Backend/pwreset');
+
 });
-Route::get('/u_reg', function () {
-    return view('Backend/r_reg_form');
-   
-});
+
+
+
+use App\Http\Controllers\login\User_loginController;
+
+Route::get('/user/register/home',[User_loginController::class,'registr_home'])->name('user.register.home');
+
+    function admin_login(Request $request){
+        Route::get('/user/admin', [User_loginController::class,'admin_login'])->name('user.login');
+    }
