@@ -52,6 +52,8 @@
         "laravel": {
             "dont-discover": []
         }
+
+        
     },
     "config": {
         "optimize-autoloader": true,
@@ -64,4 +66,6 @@
     },
     "minimum-stability": "stable",
     "prefer-stable": true
+
+
 }

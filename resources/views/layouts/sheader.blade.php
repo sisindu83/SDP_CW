@@ -4,17 +4,19 @@
     </div></div></div>
     <!--  END LOADER -->
 
+
+
      <!--  BEGIN CUSTOM STYLE FILE  -->
      <link rel="stylesheet" href="<?php echo url("/")?>/assets/src/plugins/src/filepond/filepond.min.css">
     <link rel="stylesheet" href="<?php echo url("/")?>/assets/src/plugins/src/filepond/FilePondPluginImagePreview.min.css">
     <link href="<?php echo url("/")?>/assets/src/plugins/src/notification/snackbar/snackbar.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="<?php echo url("/")?>/assets/src/plugins/src/sweetalerts2/sweetalerts2.css">
-    
+
+
     <link href="<?php echo url("/")?>/assets/src/plugins/css/light/filepond/custom-filepond.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo url("/")?>/assets/src/assets/css/light/components/tabs.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php echo url("/")?>/assets/src/assets/css/light/elements/alert.css">
-    
-    <link href="<?php echo url("/")?>/assets/src/plugins/css/light/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+
+
     <link href="<?php echo url("/")?>/assets/src/plugins/css/light/notification/snackbar/custom-snackbar.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo url("/")?>/assets/src/assets/css/light/forms/switches.css">
     <link href="<?php echo url("/")?>/assets/src/assets/css/light/components/list-group.css" rel="stylesheet" type="text/css">
@@ -26,22 +28,27 @@
     <link href="<?php echo url("/")?>/assets/src/plugins/css/dark/filepond/custom-filepond.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo url("/")?>/assets/src/assets/css/dark/components/tabs.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="<?php echo url("/")?>/assets/src/assets/css/dark/elements/alert.css">
-    
-    <link href="<?php echo url("/")?>/assets/src/plugins/css/dark/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
+
+
     <link href="<?php echo url("/")?>/assets/src/plugins/css/dark/notification/snackbar/custom-snackbar.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="<?php echo url("/")?>/assets/src/assets/css/dark/forms/switches.css">
     <link href="<?php echo url("/")?>/assets/src/assets/css/dark/components/list-group.css" rel="stylesheet" type="text/css">
 
     <link href="<?php echo url("/")?>/assets/src/assets/css/dark/users/account-setting.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="../src/plugins/src/sweetalerts2/sweetalerts2.css">
-    
+
+
     <link href="<?php echo url("/")?>/src/assets/css/light/scrollspyNav.css" rel="stylesheet" type="text/css" />
-    <link href="<?php echo url("/")?>/src/plugins/css/light/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
 
     <link href="<?php echo url("/")?>/src/assets/css/dark/scrollspyNav.css" rel="stylesheet" type="text/css" />
+
+
+    <link rel="stylesheet" href="../src/plugins/src/sweetalerts2/sweetalerts2.css">
+    <link href="<?php echo url("/")?>/src/plugins/css/light/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo url("/")?>/src/plugins/css/dark/sweetalerts2/custom-sweetalert.css" rel="stylesheet" type="text/css" />
 
-    <!--  END CUSTOM STYLE FILE  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+ <!--  END CUSTOM STYLE FILE  -->
 
     <div class="dropdown-menu position-absolute" aria-labelledby="language-dropdown">
                         <a class="dropdown-item d-flex" href="javascript:void(0);"><img src="<?php echo url("/")?>/src/assets/img/1x1/us.svg" class="flag-width" alt="flag"> <span class="align-self-center">&nbsp;USA</span></a>
@@ -60,7 +67,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon dark-mode"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun light-mode"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
             </a>
-            
+
             <a href="javascript:void(0);" class="sidebarCollapse">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
             </a>
@@ -80,7 +87,7 @@
                         <div class="user-profile-section">
                             <div class="media mx-auto">
                                 <img src="<?php echo url("/")?>/assets/src/assets/img/profile-30.png" class="img-fluid me-2" alt="avatar">
-                              
+
                             </div>
                         </div>
                         <div class="dropdown-item">
@@ -104,7 +111,7 @@
                             </a>
                         </div>
                     </div>
-                    
+
                 </li>
             </ul>
         </header>
@@ -117,4 +124,3 @@
         <div class="overlay"></div>
         <div class="search-overlay"></div>
 
-       

@@ -17,10 +17,7 @@ use Illuminate\Support\Facades\Route;
    return view('welcome');
 
 });*/
-Route::get('/', function () {
-    return view('report/s_maim');
 
-});
 Route::get('/report', function () {
     return view('report/s_maim');
 
@@ -30,10 +27,7 @@ Route::get('/s_view', function () {
 
 });
 
-Route::get('/registration', function () {
-    return view('report/r_reg_form');
 
-});
 
 Route::get('/login', function () {
     return view('report/login');
@@ -53,21 +47,24 @@ Route::get('/inspec', function () {
     return view('Backend/inspec');
 
 });
-Route::get('/admin', function () {
-    return view('Backend/adlogin');
+//Route::get('/admin', function () {
+  //  return view('Backend/adlogin');
 
-});
+//});
 Route::get('/pwrestpswreset', function () {
     return view('Backend/pwreset');
 
 });
 
 
-
+use App\Http\Controllers\complain\guest_complain;
 use App\Http\Controllers\login\User_loginController;
 
 Route::get('/user/register/home',[User_loginController::class,'registr_home'])->name('user.register.home');
 
-    function admin_login(Request $request){
-        Route::get('/user/admin', [User_loginController::class,'admin_login'])->name('user.login');
-    }
+
+Route::get('/admin', [User_loginController::class,'admin_login'])->name('user.login');
+
+Route::get('/',[guest_complain::class,'guest_complains'])->name('/');
+
+Route::get('/guest_registeration',[User_loginController::class,'guest_registeration'])->name('guest_registeration');

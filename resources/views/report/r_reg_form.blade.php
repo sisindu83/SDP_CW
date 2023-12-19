@@ -39,7 +39,7 @@
                                                             <div class="col-md-2">
                                                                 <div class="form-group">
                                                                     <label for="Title">Title</label>
-                                                                    <select class="form-select mb-3" id="country">
+                                                                    <select class="form-select mb-3" id="country" required>
                                                                         <option>Mr.</option>
                                                                         <option>Miss.</option>
                                                                         <option>Mrs.</option>
@@ -59,15 +59,15 @@
                                                             <div class="col-md-5">
                                                                 <div class="form-group">
                                                                     <label for="lastname">Last Name</label>
-                                                                    <input type="text" class="form-control mb-3"
+                                                                    <input type="text" class="form-control mb-3" required
                                                                         id="lastname" placeholder="Last Name">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-3">
                                                                 <div class="form-group">
                                                                     <label for="contactno">Contact No:</label>
-                                                                    <input type="tel" id="phone" name="phone"
-                                                                        pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                                                                    <input type="text" id="phone" name="phone"
+
                                                                         class="form-control mb-3" id="contactno"
                                                                         placeholder="Contact No">
                                                                 </div>
@@ -75,10 +75,12 @@
                                                             <div class="col-md-4">
                                                                 <div class="form-group">
                                                                     <label for="countrdistric">Distric</label>
-                                                                    <select class="form-select mb-3" id="distric">
-                                                                        <option>Colombo</option>
-                                                                        <option>Gampahala</option>
-                                                                        <option>Kaluthara</option>
+                                                                    <select class="form-select mb-3" id="distric"
+                                                                        name="distric" required>
+                                                                        @foreach ($districs as $distric)
+                                                                            <option value="{{ $distric->id }}">{{ $distric->distric_name }}</option>
+                                                                        @endforeach
+
 
                                                                     </select>
                                                                 </div>
@@ -92,21 +94,21 @@
                                                             <div class="col-md-5">
                                                                 <div class="form-group">
                                                                     <label for="city">City</label>
-                                                                    <input type="text" class="form-control mb-3"
+                                                                    <input type="text" class="form-control mb-3" required
                                                                         id="phone" placeholder="City">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                 <div class="form-group">
                                                                     <label for="gn">GN division</label>
-                                                                    <input type="text" class="form-control mb-3"
+                                                                    <input type="text" class="form-control mb-3" required
                                                                         id="gn" placeholder="GN Division">
                                                                 </div>
                                                             </div>
                                                             <div class="col-md-4">
                                                                 <div class="form-group">
                                                                     <label for="email">email</label>
-                                                                    <input type="email" id="email" name="email"
+                                                                    <input type="email" id="email" name="email" required
                                                                         class="form-control mb-3" id="gn"
                                                                         placeholder="email">
                                                                 </div>
@@ -116,7 +118,7 @@
                                                                     <div class="form-group">
                                                                         <label for="password">Password</label>
                                                                         <input type="password" id="password" name="password"
-                                                                            class="form-control mb-3"  name='passsword'
+                                                                            class="form-control mb-3"  name='passsword' required
                                                                             placeholder="Password">
                                                                     </div>
                                                                 </div>
@@ -125,7 +127,7 @@
                                                                     <div class="form-group">
                                                                         <label for="password">Re-Password</label>
                                                                         <input type="password" id="repassword" name="repassword"
-                                                                            class="form-control mb-3"  name='repasssword'
+                                                                            class="form-control mb-3"  name='repasssword' required
                                                                             placeholder="Password">
                                                                     </div>
                                                                 </div>
@@ -136,8 +138,7 @@
 
                                                                 <div class="col mt-6">
                                                                     <div class="form-group text-end">
-                                                                        <button
-                                                                            class="btn btn-secondary">Regitser</button>
+                                                                        <div class="btn btn-secondary"role="button" id="reg_btn">Regitser</div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -153,7 +154,17 @@
 </form>
 </div>
 
+<script>
+    $(document).ready(function() {
+      $("#reg_btn").click(function() {
+        Swal.fire({
+        icon: 'success',
+        title: 'Account Create',
+    })
+      });
 
+  });
+  </script>
 </div>
 <div>
 

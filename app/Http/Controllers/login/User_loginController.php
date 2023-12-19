@@ -36,6 +36,11 @@ class User_loginController extends Controller
         return view('Backend.adlogin');
     }
 
+    function guest_registeration(Request $request){
+        $dis=districs::orderby('distric_name')->get();
+
+        return view('report.r_reg_form')->with('districs', $dis);
+    }
 
     public function create_account(Request $request)
     {

@@ -6,7 +6,7 @@
                     <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
                 </div>
             </div>
-            
+
         </div>
         <!--  END CONTENT AREA  -->
 
@@ -18,8 +18,8 @@
     <script src="<?php echo url("/")?>/assets/src/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="<?php echo url("/")?>/assets/src/plugins/src/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="<?php echo url("/")?>/assets/layouts/vertical-dark-menu/app.js"></script>
-    
-    
+
+
     <script src="<?php echo url("/")?>/assets/src/assets/js/custom.js"></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
 
@@ -40,14 +40,17 @@
     <script src="<?php echo url("/")?>/assets/src/plugins/src/filepond/FilePondPluginImageTransform.min.js"></script>
     <script src="<?php echo url("/")?>/assets/src/plugins/src/filepond/filepondPluginFileValidateSize.min.js"></script>
     <script src="<?php echo url("/")?>/assets/src/plugins/src/notification/snackbar/snackbar.min.js"></script>
-    <script src="<?php echo url("/")?>/assets/src/plugins/src/sweetalerts2/sweetalerts2.min.js"></script>
+
     <script src="<?php echo url("/")?>/assets/src/assets/js/users/account-settings.js"></script>
 
     <script src="<?php echo url("/")?>/assets/src/assets/js/scrollspyNav.js"></script>
 
     <script src="<?php echo url("/")?>/src/assets/js/scrollspyNav.js"></script>
+
+
     <script src="<?php echo url("/")?>/src/plugins/src/sweetalerts2/sweetalerts2.min.js"></script>
     <script src="<?php echo url("/")?>/src/plugins/src/sweetalerts2/custom-sweetalert.js"></script>
+
     <!--  END CUSTOM SCRIPTS FILE  -->
 
 
