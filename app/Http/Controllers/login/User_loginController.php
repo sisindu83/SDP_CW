@@ -20,20 +20,20 @@ class User_loginController extends Controller
         Auth::logout();
         request()->session()->invalidate();
         request()->session()->regenerateToken();
-        return view('backend.adlogin');
+        return view('admin.adlogin');
     }
 
 
     function registr_home(Request $request){
         $dis=districs::orderby('distric_name')->get();
 
-        return view('Backend.u_reg_form')->with('districs', $dis);
+        return view('admin.u_reg_form')->with('districs', $dis);
     }
 
     function admin_login(Request $request){
 
 
-        return view('Backend.adlogin');
+        return view('admin.adlogin');
     }
 
     function guest_registeration(Request $request){

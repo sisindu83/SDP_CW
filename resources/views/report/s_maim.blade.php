@@ -50,7 +50,7 @@
                                                         </div>
                                                         <div class="col-md-5">
                                                             <div class="form-group">
-                                                                <label for="initial">Initial.</label>
+                                                                <label for="initial">Initial.*</label>
                                                                 <input type="text" class="form-control mb-3"  required
                                                                     id="initial" placeholder="Initial">
                                                             </div>
@@ -58,21 +58,20 @@
 
                                                         <div class="col-md-5">
                                                             <div class="form-group">
-                                                                <label for="lastname">Last Name</label>
-                                                                <input type="text" class="form-control mb-3" required
-                                                                    id="lastname" placeholder="Last Name">
+                                                                <label for="lastname">Last Name*</label>
+                                                                <input type="text" class="form-control mb-3" requiredid="lastname" placeholder="Last Name">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <div class="form-group">
-                                                                <label for="contactno">Contact No:</label>
+                                                                <label for="contactno">Contact No:*</label>
                                                                 <input type="text" class="form-control mb-3" required
                                                                     id="contactno" placeholder="Contact No">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-group">
-                                                                <label for="countrdistric">Distric</label>
+                                                                <label for="countrdistric">Distric*</label>
                                                                 <select class="form-select mb-3" id="distric" required
                                                                     name="distric" required>
                                                                     @foreach ($districs as $distric)
@@ -89,21 +88,21 @@
 
                                                         <div class="col-md-5">
                                                             <div class="form-group">
-                                                                <label for="city">City</label>
+                                                                <label for="city">City*</label>
                                                                 <input type="text" class="form-control mb-3" required
                                                                     id="phone" placeholder="City"name ='city'>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <div class="form-group">
-                                                                <label for="contactno">Email:</label>
+                                                                <label for="contactno">Email:*</label>
                                                                 <input type="email" id="email" name="email" required
                                                                     class="form-control mb-3" placeholder="E mail" name='email'>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-3">
                                                             <div class="form-group">
-                                                                <label for="gn">GN division</label>
+                                                                <label for="gn">GN division*</label>
                                                                 <input type="text" class="form-control mb-3" required
                                                                     id="gn" placeholder="GN Division" name='GN_division'>
                                                             </div>
@@ -111,15 +110,14 @@
 
                                                         <div class="col-md-6">
                                                             <div class="form-group">
-                                                                <label for="location">Location</label>
-                                                                <input type="text" class="form-control mb-3" required
-                                                                    id="location" placeholder="Location" name ='location'>
+                                                                <label for="location">Location*</label>
+                                                                <input type="text" class="form-control mb-3" required id="location" placeholder="Location" name ='location'>
 
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4">
                                                             <div class="form-group">
-                                                                <label for="rtype">Report Type</label>
+                                                                <label for="rtype">Report Type*</label>
                                                                 <select class="form-select mb-3" required id="rtype"name='report_type'>
                                                                     <option>Wildlife</option>
                                                                     <option>Animal</option>
@@ -130,7 +128,7 @@
                                                         </div>
                                                         <div class="col-md-8">
                                                             <div class="form-group">
-                                                                <label for="incident">Tell Us About Incident(s)</label>
+                                                                <label for="incident">Tell Us About Incidents*</label>
                                                                 <input type="text" class="form-control mb-3"
                                                                     id="incident" required
                                                                     placeholder="Tell Us About Incident(s)">

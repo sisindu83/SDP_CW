@@ -22,7 +22,7 @@ class guest_complain extends Controller
         Auth::logout();
         request()->session()->invalidate();
         request()->session()->regenerateToken();
-        return view('backend.adlogin');
+        return view('admin.adlogin');
     }
     function guest_complains(Request $request){
         $dis=districs::orderby('distric_name')->get();

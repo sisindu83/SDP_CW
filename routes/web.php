@@ -23,7 +23,7 @@ Route::get('/report', function () {
 
 });
 Route::get('/s_view', function () {
-    return view('Backend/r_view');
+    return view('admin/r_view');
 
 });
 
@@ -44,17 +44,23 @@ Route::get('/pwrest', function () {
 
 });
 Route::get('/inspec', function () {
-    return view('Backend/inspec');
+    return view('admin/inspec');
 
 });
 //Route::get('/admin', function () {
-  //  return view('Backend/adlogin');
+  //  return view('admin/adlogin');
 
 //});
 Route::get('/pwrestpswreset', function () {
-    return view('Backend/pwreset');
+    return view('admin/pwreset');
 
 });
+
+Route::get('/', function () {
+    return view('layouts.welcome');
+
+});
+
 
 
 use App\Http\Controllers\complain\guest_complain;
@@ -65,6 +71,6 @@ Route::get('/user/register/home',[User_loginController::class,'registr_home'])->
 
 Route::get('/admin', [User_loginController::class,'admin_login'])->name('user.login');
 
-Route::get('/',[guest_complain::class,'guest_complains'])->name('/');
+Route::get('/home',[guest_complain::class,'guest_complains'])->name('/home');
 
 Route::get('/guest_registeration',[User_loginController::class,'guest_registeration'])->name('guest_registeration');

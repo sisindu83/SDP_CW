@@ -1,0 +1,20 @@
+div .coverHero{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+    height: 85vh !important;
+    background-image: url("/coverImages/cover_01.jpg") !important;
+    background-repeat: no-repeat !important;
+}
+
+.coverHero-green{
+    color:Green !important;
+    font-size:200% !important;
+    font-weight: bolder !important;
+}
+
+.coverHero-ash{
+    color:rgb(195, 197, 195) !important;
+    font-size: 650% !important;
+    font-weight: bolder !important;
+}
