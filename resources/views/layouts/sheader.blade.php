@@ -128,7 +128,7 @@
             <meta charset="utf-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-            <title>Full Width | CORK - Multipurpose Bootstrap Dashboard Template </title>
+            <title>Environmental Crime Complain System (ECCS)</title>
             <link rel="icon" type="image/x-icon" href="<?php echo url("/")?>/assets/src/assets/img/favicon.ico"/>
             <!-- ENABLE LOADERS -->
             <link href="<?php echo url("/")?>/assets/layouts/vertical-dark-menu/css/light/loader.css" rel="stylesheet" type="text/css" />
