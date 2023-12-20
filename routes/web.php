@@ -35,12 +35,12 @@ Route::get('/login', function () {
 });
 
 Route::get('/ccmplin', function () {
-    return view('report/passwordreset');
+    return view('report/report_check');
 
 });
 
 Route::get('/pwrest', function () {
-    return view('report/report_check');
+    return view('report/passwordreset');
 
 });
 Route::get('/inspec', function () {

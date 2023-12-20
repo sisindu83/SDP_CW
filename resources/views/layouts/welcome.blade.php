@@ -25,7 +25,7 @@
                                                 <h1 class="display-1 coverHero-ash">together</h1>
                                                 <h2>We<br>can make<br>our home planet<br><span class="coverHero-green">GREEN</span><br>&<br>a better place!</h2>
                                                 <button type="button" class="btn btn-outline-danger mt-3" onclick="redirectToComplaintPage()">Make Complaint</button>
-                                                <button type="button" class="btn btn-outline-danger mt-3" onclick="redirectToCheckcomplaintpage()">Make Complaint</button>
+                                                <button type="button" class="btn btn-outline-warning mt-3" onclick="redirectToCheckcomplaintpage()">View Complaint</button>
                                             </div>
                                         </div>
                                     </div>
