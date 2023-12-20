@@ -67,7 +67,7 @@
 
                         <div class="col-12">
                             <div class="text-center">
-                                <p class="mb-0">Dont't have an account ? <a href="registration" class="text-warning">Sign Up</a></p>
+                                <p class="mb-0">Dont't have an account ? <a href="guest_registeration" class="text-warning">Sign Up</a></p>
                             </div>
                         </div>
 
